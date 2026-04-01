@@ -1,0 +1,18 @@
+{
+    "name": "aj-jupyterlab-theme-vscode",
+    "displayName": "AJ JupyterLab Light Professional",
+    "description": "Exact JupyterLab Light port for VS Code",
+    "version": "1.0.0",
+    "publisher": "vscode",
+    "engines": { "vscode": "^1.50.0" },
+    "categories": [ "Themes" ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "AJ JupyterLab Light",
+                "uiTheme": "vs",
+                "path": "./themes/aj-jupyterlab-theme-vscode.json"
+            }
+        ]
+    }
+}

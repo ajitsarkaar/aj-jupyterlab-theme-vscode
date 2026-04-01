@@ -1,0 +1,27 @@
+{
+  "name": "AJ JupyterLab Theme",
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "sideBar.background": "#EEEEEE",
+    "sideBar.border": "#D5D5D5",
+    "editorGroupHeader.tabsBackground": "#E0E0E0",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.inactiveBackground": "#E0E0E0",
+    "tab.border": "#D5D5D5",
+    "activityBar.background": "#EEEEEE",
+    "activityBar.foreground": "#616161",
+    "statusBar.background": "#EEEEEE",
+    "statusBar.foreground": "#616161",
+    "editorLineNumber.foreground": "#999999"
+  },
+  "tokenColors": [
+    { "scope": ["keyword", "storage.type"], "settings": { "foreground": "#008000", "fontStyle": "bold" } },
+    { "scope": ["string"], "settings": { "foreground": "#BA2121" } },
+    { "scope": ["comment"], "settings": { "foreground": "#408080", "fontStyle": "italic" } },
+    { "scope": ["entity.name.function", "support.function"], "settings": { "foreground": "#0000FF" } },
+    { "scope": ["variable"], "settings": { "foreground": "#000000" } },
+    { "scope": ["constant.numeric"], "settings": { "foreground": "#0800FC" } },
+    { "scope": ["keyword.operator"], "settings": { "foreground": "#AA22FF" } }
+  ]
+}
